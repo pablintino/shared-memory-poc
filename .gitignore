@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+# Clion/VSCode ignores
+cmake-build*
+*.idea/
+*.vscode
+
+# Conan ignores
+conaninfo.txt
+conanbuildinfo.txt
+conan.lock
+conanbuildinfo.cmake
+graph_info.json
